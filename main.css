@@ -1,0 +1,42 @@
+/* Mobile */
+
+.flex-small {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+    line-height:5rem;
+}
+
+img {
+    width: 320px;
+}
+
+#search-middle {
+    text-align: center;
+}
+#search-box {
+    width:70%;
+    margin-bottom: 30px;
+    border-radius:  7%;
+    height:22px;
+    border: 2px solid gray;
+    background-color: whitesmoke
+}
+
+
+/* Big Screen */
+@media (min-width:768px) {
+    .photo-flex{
+        display: flex;
+        text-align: center;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    #search-box {
+        width:50%;
+    }
+}
