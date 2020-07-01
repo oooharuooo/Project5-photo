@@ -1,5 +1,5 @@
-//  $(".lb-nav a.lb-prev").show();
- $(".lb-nav a.lb-prev").css({ display : 'block' });
+$(".lb-nav a.lb-prev").show();
+$(".lb-nav a.lb-prev").show();
 
 
 
