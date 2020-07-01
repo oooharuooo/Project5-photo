@@ -136,6 +136,8 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
+
+
 .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
@@ -164,7 +166,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1em;
 }

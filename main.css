@@ -41,14 +41,18 @@
 }
 
 /* Big Screen */
-@media (min-width:1200px){
+@media (min-width:1650px){
     .container {
         width:80%;
     }
-    #big-thumbnails {
+    /* #big-thumbnails {
         min-width: 20%;
-    }
+    } */
     .photo-flex{
         justify-content: space-evenly;
+    }
+
+    img {
+        width: 150%;
     }
 }
