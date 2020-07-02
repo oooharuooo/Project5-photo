@@ -1,7 +1,8 @@
-$(".lb-nav a.lb-prev").show();
-$(".lb-nav a.lb-prev").show();
-
-
+    // Lightbox setting 
+lightbox.option({
+  showImageNumberLabel: false,
+  wrapAround: true,
+})
 
 
         
@@ -18,7 +19,7 @@ $(".lb-nav a.lb-prev").show();
               }else {
                   images[i].style.display = 'none';
               }
-        }
+            }
       });
    
     
